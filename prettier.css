@@ -1,117 +1,105 @@
+/*
+    Theme: prettier
+    Description: A prettier Highlight JS style.
+    Website: https://highlightjs.org/
+    License: GNU V3
+*/
+
+/* Styles for the actual code block */
 pre code.hljs {
     display: block;
     overflow-x: auto;
     padding: 1em
   }
+
   code.hljs {
     padding: 3px 5px
   }
-  /*!
-    Theme: Default
-    Description: Original highlight.js style
-    Author: (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
-    Maintainer: @highlightjs/core-team
-    Website: https://highlightjs.org/
-    License: see project LICENSE
-    Touched: 2021
-  */
-  /*
-  This is left on purpose making default.css the single file that can be lifted
-  as-is from the repository directly without the need for a build step
-  
-  Typically this "required" baseline CSS is added by `makestuff.js` during build.
-  */
+
   pre code.hljs {
     display: block;
     overflow-x: auto;
     padding: 1em
   }
+
   code.hljs {
     padding: 3px 5px
   }
-  /* end baseline CSS */
+
   .hljs {
-    background: #F3F3F3;
-    color: #444
+    background: #F5F5F5;
+    color: #444;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
   }
-  /* Base color: saturation 0; */
-  .hljs-subst {
-    /* default */
-    
+
+  /* This is where the colours start! */
+  .hljs-comment,
+  .hljs-quote {
+    color: #608B4E;
+    font-style: italic
   }
-  /* purposely ignored */
-  .hljs-formula,
-  .hljs-attr,
-  .hljs-property,
-  .hljs-params {
-    
-  }
-  .hljs-comment {
-    color: #4B8B4E
-  }
-  .hljs-tag,
-  .hljs-punctuation {
-    color: #444a
-  }
-  .hljs-tag .hljs-name,
-  .hljs-tag .hljs-attr {
-    color: #444
-  }
-  .hljs-keyword,
-  .hljs-attribute,
-  .hljs-selector-tag,
-  .hljs-meta .hljs-keyword,
+
   .hljs-doctag,
-  .hljs-name {
-    font-weight: bold
+  .hljs-keyword,
+  .hljs-formula {
+    color: #a71d5d
   }
-  /* User color: hue: 0 */
-  .hljs-type,
+
+  .hljs-section,
+  .hljs-name,
+  .hljs-selector-tag,
+  .hljs-deletion,
+  .hljs-subst {
+    color: #13795B
+  }
+
+  .hljs-literal {
+    color: #56b6c2
+  }
+
   .hljs-string,
-  .hljs-number,
-  .hljs-selector-id,
-  .hljs-selector-class,
-  .hljs-quote,
-  .hljs-template-tag,
-  .hljs-deletion {
-    color: #880000
-  }
-  .hljs-title,
-  .hljs-section {
-    color: #880000;
-    font-weight: bold
-  }
   .hljs-regexp,
-  .hljs-symbol,
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-meta .hljs-string {
+    color: #795da3
+  }
+
+  .hljs-attr,
   .hljs-variable,
   .hljs-template-variable,
-  .hljs-link,
+  .hljs-type,
+  .hljs-selector-class,
   .hljs-selector-attr,
-  .hljs-operator,
-  .hljs-selector-pseudo {
-    color: #ab5656
+  .hljs-selector-pseudo,
+  .hljs-number {
+    color: #151515
   }
-  /* Language color: hue: 90; */
-  .hljs-literal {
-    color: #695
-  }
-  .hljs-built_in,
+
+  .hljs-symbol,
   .hljs-bullet,
-  .hljs-code,
-  .hljs-addition {
-    color: #397300
+  .hljs-link,
+  .hljs-meta,
+  .hljs-selector-id,
+  .hljs-title {
+    color: #183691
   }
-  /* Meta color: hue: 200 */
-  .hljs-meta {
-    color: #1f7199
+
+  .hljs-built_in,
+  .hljs-title.class_,
+  .hljs-class .hljs-title {
+    color: #e6c07b
   }
-  .hljs-meta .hljs-string {
-    color: #38a
-  }
-  /* Misc effects */
+
   .hljs-emphasis {
     font-style: italic
   }
+
   .hljs-strong {
     font-weight: bold
+  }
+
+  .hljs-link {
+    text-decoration: underline
   }
