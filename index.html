@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="prettier.css">
+    <link rel="stylesheet" href="dist/prettier.min.css">
     <title>prettier Demonstration</title>
 </head>
 
 <body>
+    <h1>Common Code examples</h1>
+    <p>This website showcases some common languages getting highlighted by prettier.</p>
     <h2>CSS Example</h2>
     <pre>
         <code class="language-css">
@@ -51,9 +53,15 @@ list:
     - another point
         </code>
     </pre>
+    <h2>Python Example</h2>
     <pre>
         <code class="language-python">
+# This is a comment. It should be greened out.
 print("hello World!")
+x = float(1)
+y = float(2.8)
+z = float("3")
+w = float("4.2")
         </code>
     </pre>
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>

@@ -55,7 +55,7 @@ pre code.hljs {
   }
 
   .hljs-literal {
-    color: #56b6c2
+    color: #CC8E6E
   }
 
   .hljs-string,
@@ -89,7 +89,7 @@ pre code.hljs {
   .hljs-built_in,
   .hljs-title.class_,
   .hljs-class .hljs-title {
-    color: #e6c07b
+    color: #087990;
   }
 
   .hljs-emphasis {
