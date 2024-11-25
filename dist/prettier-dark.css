@@ -27,8 +27,8 @@ pre code.hljs {
   }
 
   .hljs {
-    background: #F5F5F5;
-    color: #444;
+    background: #1E1E1E;
+    color: #ffffff;
     border: 1px solid #CCCCCC;
     border-radius: 4px;
   }
@@ -43,7 +43,7 @@ pre code.hljs {
   .hljs-doctag,
   .hljs-keyword,
   .hljs-formula {
-    color: #a71d5d
+    color: #C29FFA
   }
 
   .hljs-section,
@@ -51,11 +51,11 @@ pre code.hljs {
   .hljs-selector-tag,
   .hljs-deletion,
   .hljs-subst {
-    color: #13795B
+    color: #36BBF6
   }
 
   .hljs-literal {
-    color: #a71d5d
+    color: #e5c07b
   }
 
   .hljs-string,
@@ -63,7 +63,7 @@ pre code.hljs {
   .hljs-addition,
   .hljs-attribute,
   .hljs-meta .hljs-string {
-    color: #795da3
+    color: #79DFC1
   }
 
   .hljs-attr,
@@ -74,7 +74,7 @@ pre code.hljs {
   .hljs-selector-attr,
   .hljs-selector-pseudo,
   .hljs-number {
-    color: #151515
+    color: white
   }
 
   .hljs-symbol,
@@ -83,13 +83,13 @@ pre code.hljs {
   .hljs-meta,
   .hljs-selector-id,
   .hljs-title {
-    color: #183691
+    color: #E685B5
   }
 
   .hljs-built_in,
   .hljs-title.class_,
   .hljs-class .hljs-title {
-    color: #087990;
+    color: #e5c07b;
   }
 
   .hljs-emphasis {

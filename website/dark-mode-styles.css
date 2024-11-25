@@ -1,0 +1,15 @@
+/* This CSS file is for styling the website, and has nothing to do with the actual Syntax Highlighter theme. */
+
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #000000;
+    color: #F6F8F9;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      padding-left: 4%;
+      padding-right: 4%;
+    }
+  }

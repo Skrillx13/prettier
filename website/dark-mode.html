@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dark-mode-styles.css">
+    <link rel="stylesheet" href="../dist/prettier-dark.css">
+    <title>prettier Demonstration</title>
+</head>
+
+<body>
+    <h1>Common Code examples</h1>
+    <p>This website showcases some common languages getting highlighted by prettier. For the light mode showcase, please visit <a href="index.html">the index page.</a></p>
+    <h2>CSS Example</h2>
+    <pre>
+        <code class="language-css">
+/* This is a comment. It should be greened out. */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900:ital@0;1&display=swap');
+
+body {
+    font-family: Poppins;
+    background-color: #fffff8;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+        </code>
+    </pre>
+    <h2>JavaScript Example</h2>
+    <pre>
+        <code class="language-javascript">
+// This is a comment. It should be greened out.
+
+function specialAdd (a, b) {
+    const SPECIAL_NUMBERS = [4, 8, 12];
+
+    if(SPECIAL_NUMBERS.includes(a)) {
+        return 99;
+    }
+
+    return a + b;
+}
+        </code>
+    </pre>
+    <h2>YAML Example</h2>
+    <pre>
+        <code class="language-yaml">
+# This is a comment. It should be greened out.
+
+list:
+    - true
+    - another point
+        </code>
+    </pre>
+    <h2>TOML Example</h2>
+    <pre>
+        <code class="language-toml">
+# This is a comment. It should be greened out.
+
+title = "TOML Example"
+
+[owner]
+name = "Tom Preston-Werner"
+dob = 1979-05-27T07:32:00-08:00
+
+[database]
+enabled = true
+ports = [ 8000, 8001, 8002 ]
+data = [ ["delta", "phi"], [3.14] ]
+temp_targets = { cpu = 79.5, case = 72.0 }
+
+[servers]
+
+[servers.alpha]
+ip = "10.0.0.1"
+role = "frontend"
+
+[servers.beta]
+ip = "10.0.0.2"
+role = "backend"
+        </code>
+    </pre>
+    <h2>Python Example</h2>
+    <pre>
+        <code class="language-python">
+# This is a comment. It should be greened out.
+
+print("hello World!")
+x = float(1)
+y = float(2.8)
+z = float("3")
+w = float("4.2")
+        </code>
+    </pre>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+
+</html>

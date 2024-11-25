@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="dist/prettier.min.css">
+    <link rel="stylesheet" href="../dist/prettier.css">
     <title>prettier Demonstration</title>
 </head>
 
 <body>
     <h1>Common Code examples</h1>
-    <p>This website showcases some common languages getting highlighted by prettier.</p>
+    <p>This website showcases some common languages getting highlighted by prettier. For the dark mode showcase, please visit <a href="dark-mode.html">the dark mode page.</a></p>
     <h2>CSS Example</h2>
     <pre>
         <code class="language-css">
@@ -53,10 +53,39 @@ list:
     - another point
         </code>
     </pre>
+    <h2>TOML Example</h2>
+    <pre>
+        <code class="language-toml">
+# This is a comment. It should be greened out.
+
+title = "TOML Example"
+
+[owner]
+name = "Tom Preston-Werner"
+dob = 1979-05-27T07:32:00-08:00
+
+[database]
+enabled = true
+ports = [ 8000, 8001, 8002 ]
+data = [ ["delta", "phi"], [3.14] ]
+temp_targets = { cpu = 79.5, case = 72.0 }
+
+[servers]
+
+[servers.alpha]
+ip = "10.0.0.1"
+role = "frontend"
+
+[servers.beta]
+ip = "10.0.0.2"
+role = "backend"
+        </code>
+    </pre>
     <h2>Python Example</h2>
     <pre>
         <code class="language-python">
 # This is a comment. It should be greened out.
+
 print("hello World!")
 x = float(1)
 y = float(2.8)
